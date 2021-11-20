@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+</head>
+<body>
+   <div class="row">
+				<div class="col-sm-4 left">
+					<!-- ngIf: menuData.left[0].title -->
+					
+				</div>
+				<style>
+*{margin: 0; padding: 0;}
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 14px;
+}
+
+.menu{
+list-style:none;
+border:0px solid #c0c0c0;
+float:left;
+}
+
+.menu li{
+position:relative;
+float:left;
+border-right:0px solid #c0c0c0;
+}
+
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:#333;
+color:#FFA500;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+position:absolute;
+top:25px;
+left:0;
+background-color:#fff;
+display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+border:0px solid #c0c0c0;
+display:block;
+width:150px;
+}
+                  ul li a{color: #fff; text-decoration: none; font-family: sans-serif; display: block;}
+                  ul li ul li{ border-top: 1px solid #fff;}
+                  ul li ul .itam-2{position:absolute; left:132px; top:0; display:nane;}
+                  ul li ul li:last-child:hover .itam-2{display:block;}
+                  
+                          ul li ul li:last-child:hover .itam-2 {
+            display: none;
+        }
+        
+        #gradDiv2,
+        #superiorDiv2,
+        #superiorDiv22 {
+            display: none;
+        }
+                  
+</style>
+<ul class="menu">
+		<li><a href="https://euestudo.com.vc/facaparte/?userid=573183&amp;logotipo=euestudocomvc2862019122031981.png">FAÇA PARTE</a></li>
+  <li><a href="#">CURSOS</a>
+	         	<ul> 
+                  <li><a href="https://www.unicorpfaculdades.edu.br/sessao-3-detalhe/291936/-eja">EJA</a></li>
+                      <li><a href="https://unicorpfaculdades.eadforma.com.br/">Formação</a></li>
+	                  <li><a href="https://unicorpfaculdades.edu.br/sessao-2?tutors=1286328">Técnico</a></li>
+	                  <li><a href="https://unicorpfaculdades.edu.br/sessao-2?tutors=1428942" id="grad2">Graduação<span>▸</span></a>
+                        
+                          <ul class="itam-2">
+                            <li><a href="https://drive.google.com/file/d/1Y_d-_j1SxovQIgX0L1J2ylvkeCqKXNv7/view?usp=sharing" id="gradDiv2">Edital 2022.1</a></li></ul></li>
+                        
+	                  <li><a href="#" id="superior2">Superior Sequencial<span>▸</span></a>
+                       
+                          <ul class="itam-2">
+                            <li><a href="https://unicorpfaculdades.edu.br/sessao-2-detalhe/308994/Cursos-Superiores-Sequenciais" id="superiorDiv2">Apresentação</a></li>
+                            <li><a href="https://drive.google.com/uc?export=download&amp;id=1T7Mjs_cV4Of8g-pjxow0oznKOKj0PJDI" id="superiorDiv22">Inscrição</a></li></ul></li>
+                        
+                          <li><a href="https://unicorpfaculdades.edu.br/sessao-2?tutors=1245690">Pós-Graduação</a></li>
+                        </ul>
+			</li>
+    
+    <li><a href="#">ACESSO RESTRITO</a>
+	         	<ul>
+                  
+                  <li><a href="https://www.loja.srv.br/sga/alunos/unicorpfaculdades" target="_blank">Portal do Aluno</a></li>
+	              <li><a href="https://www.loja.srv.br/sga/professores/unicorpfaculdades" target="_blank">Portal do Professor</a></li>
+                  <li><a href="http://www.loja.srv.br/sga/admin/unicorpfaculdades" target="_blank">Portal Administrativo</a></li>
+                  <li><a href="https://mail.unicorpfaculdades.edu.br:2096" target="_blank">E-mail Institucional</a></li>
+                        </ul>
+			</li>
+    
+                <li><a href="https://unicorpfaculdades.edu.br/como-funciona">COMO FUNCIONA</a></li>
+		        <li><a href="https://unicorpfaculdades.edu.br/sessao-3">ASSINATURAS</a></li>
+                <li><a href="" id="callLogin">ENTRAR</a></li>
+<div id="localLogin"></div>
+
+<!--<span class="login">
+                   <span class="login__entrar" ng-click="loginBoxActive = !loginBoxActive" style="text-decoration: none !important;">ENTRAR</span>
+                  <!-- ngIf: loginBoxActive && !hideFloaterHeader
+                </span>-->
+                <a target="_self" href="/api/Comprar.aspx"><i class="icon-basket" style="padding: 5px 10px !important;"></i></a>
+               <span class="search-input">
+                    <i class="icon-search"></i>
+                   <form name="searchForm" novalidate="" target="_top" method="get" action="sessao-2" class="ng-pristine ng-valid">
+                       <div class="field">
+                           <!--<input type="hidden" name="type" value="keyword">-->
+                           <input type="text" autocomplete="off" name="keyword" placeholder="Buscar">
+                       </div>
+                   </form>
+                </span>
+                <a target="_self" href="/"><i class="icon-home"></i></a>
+            </ul></div>
+</body>
+</html>
