@@ -1,0 +1,59 @@
+.login__entrar {
+    display: none !important;
+}
+*{margin: 0; padding: 0;}
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 14px;
+}
+
+.menu{
+list-style:none;
+border:0px solid #c0c0c0;
+float:left;
+}
+
+.menu li{
+position:relative;
+float:left;
+border-right:0px solid #c0c0c0;
+}
+
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:#333;
+color:#FFA500;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+position:absolute;
+top:25px;
+left:0;
+background-color:#fff;
+display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+border:0px solid #c0c0c0;
+display:block;
+width:150px;
+}
+                  ul li a{color: #fff; text-decoration: none; font-family: sans-serif; display: block;}
+                  ul li ul li{ border-top: 1px solid #fff;}
+                  ul li ul .itam-2{position:absolute; left:132px; top:0; display:nane;}
+                  ul li ul li:last-child:hover .itam-2{display:block;}
+                  
+                          ul li ul li:last-child:hover .itam-2 {
+            display: none;
+        }
+        
+        #gradDiv,
+        #superiorDiv,
+        #superiorDiv2 {
+            display: none;
+        }

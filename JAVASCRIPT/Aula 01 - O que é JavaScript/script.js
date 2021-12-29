@@ -1,0 +1,1 @@
+alert("Este é meu Primeiro Script!")
