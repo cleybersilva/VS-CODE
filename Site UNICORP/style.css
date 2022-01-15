@@ -34,6 +34,7 @@
     border: 0;
     outline: none;
     position: relative;
+    font-weight: bold;
 }
 #btn{
     top: 0;
@@ -83,6 +84,7 @@
     border: 0;
     outline: none;
     border-radius: 30px;
+    font-weight: bold;
 }
 .check-box{
     margin: 30px 10px 30px 0;
@@ -98,4 +100,8 @@
 }
 #senha{
     left: 450px;
+}
+.logo{
+    width: 60%;
+    padding: 70px;
 }
