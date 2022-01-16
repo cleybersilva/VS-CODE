@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAP - Central de Apoio ao Polo</title>
+    <link rel="stylesheet" href="login.css" type="text/css">
+</head>
+<body>
+     <div class="hero">
+         <div class="form-box">
+             <div class="button-box">
+             <div id="btn"></div>
+                 <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                 <button type="button" class="toggle-btn" onclick="senha()">Senha</button>
+                 </div>
+                 <div class="social-icons">
+             <a href="https://www.facebook.com/unicorpfaculdades" target="_blank"><img src="img/fb.png" alt="Facebook"></a>
+             <a href="https://www.google.com/" target="_blank"><img src="img/gp.png" alt="Gmail"></a>
+             <a href="https://twitter.com/UnicorpF" target="_blank"><img src="img/tw.png" alt="Twitter"></a>
+             </div>
+             <h3>CAP - Central de Apoio ao Polo</h3>
+             <form id="login" class="input-group">
+                 <input type="text" class="input-field" placeholder="Digite seu login" required>
+                 <label for="pass"> </label>
+                 <input type="password" id="id" name="password" class="input-field" placeholder="Digite sua senha" minlength="8" required>
+                 <input type="checkbox" class="check-box"><span>Lembrar Senha</span>
+                 <button type="submit" class="submit-btn">Entrar</button>
+             </form>
+             <form id="senha" class="input-group">
+                 <input type="text" class="input-field" placeholder="Login do usuário" required>
+                 <input type="email" class="input-field" placeholder="E-mail de usuário" required>
+                 <input type="checkbox" class="check-box"><span>Eu aceito os termos e condiçôes</span>
+                 <button type="submit" class="submit-btn">Recuperar senha</button>
+             </form>
+             <br><br><br><br><br><br>
+             <img class="logo" src="img/logo.png" alt="Logo UNICORP Faculdades">
+         </div>
+     </div>
+     <script src="js/login.js" type="text/javascript"></script>
+</body>
+</html>

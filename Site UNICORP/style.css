@@ -6,16 +6,16 @@
 .hero{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0,0.4),rgba(0,0,0,0.4)),url(img/unicorp.jpeg);;
+    background-image: linear-gradient(rgba(0, 0, 0,0.4),rgba(0,0,0,0.4)),url(img/unicorp.jpeg);
     background-position: center;
     background-size: cover;
     position: absolute;
 }
 .form-box{
-    width: 380px;
-    height: 480px;
+    width: 375px;
+    height: 500px;
     position: relative;
-    margin: 6% auto;
+    margin: 6.5% auto;
     background: #fff;
     padding: 5px;
     overflow: hidden;
@@ -58,7 +58,7 @@
     border-radius: 50%;
 }
 .input-group{
-    top: 180px;
+    top: 215px;
     position: absolute;
     width: 280px;
     transition: .5s;
@@ -75,7 +75,7 @@
     background: transparent;
 }
 .submit-btn{
-    width: 85%;
+    width: 75%;
     padding: 10px 30px;
     cursor: pointer;
     display: block;
@@ -85,6 +85,21 @@
     outline: none;
     border-radius: 30px;
     font-weight: bold;
+    font-size: 14px;
+}
+.submit-btn:hover{
+    width: 70%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ffad06, #ff105f);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
 }
 .check-box{
     margin: 30px 10px 30px 0;
@@ -104,4 +119,7 @@
 .logo{
     width: 60%;
     padding: 70px;
+}
+h3{
+    text-align: center;
 }

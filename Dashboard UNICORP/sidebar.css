@@ -1,0 +1,29 @@
+div.flex-dashboard{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+sidebar{
+    display: block;
+    height: 100%;
+    width: 300px;
+    background-color: #ffad06;
+}
+
+main{
+    display: block;
+    height: 100%;
+    background-color: #ccc;
+    width: calc(100% - 300px);
+}
+
+.flex-dashboard header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: white;
+    padding: 0 30px;
+}
