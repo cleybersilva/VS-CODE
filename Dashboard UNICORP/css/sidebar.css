@@ -51,7 +51,8 @@
 .body {
     display: flex;
 }
-.section-1 {
+.main {
+    display: block;
     width: 100%;
     background: url(../img/unicorp.jpeg);
     background-size: cover;
@@ -61,11 +62,11 @@
     align-items: center;
     flex-direction: column;
 }
-.section-1 h2 {
+.main h2 {
     color: #fff;
     font-size: 40px;
 }
-.section-1 p {
+.main p {
     color: #010736;
     font-size: 18px;
     font-weight: bold;
@@ -123,4 +124,7 @@
     width: 80%;
     height: 70%;
     padding: auto;
+}
+div .overflow {
+    display: flex;
 }

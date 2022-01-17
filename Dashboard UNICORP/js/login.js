@@ -12,3 +12,7 @@ function login() {
     y.style.left = "450px";
     z.style.left = "0";
 }
+let button = document.querySelector('form button.button')
+button.addEventListener('click', () => {
+    location.href = "dashboard.html"
+})

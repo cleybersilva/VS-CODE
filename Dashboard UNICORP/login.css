@@ -73,7 +73,7 @@
     outline: none;
     background: transparent;
 }
-.submit-btn{
+.button{
     width: 75%;
     padding: 10px 30px;
     cursor: pointer;
@@ -86,7 +86,7 @@
     font-weight: bold;
     font-size: 14px;
 }
-.submit-btn:hover{
+.button:hover{
     width: 70%;
     padding: 10px 30px;
     cursor: pointer;
