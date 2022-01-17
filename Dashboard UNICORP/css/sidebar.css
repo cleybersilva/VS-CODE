@@ -67,7 +67,7 @@
 }
 .section-1 p {
     color: #010736;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     background:#fff;
     padding: 7px;
@@ -119,9 +119,8 @@
 #checkbox:checked ~ .body .side-bar a span {
     display: none;
 }
-.copyright {
-    display: flex;
-    color: #fa0b0b;
-    font-weight: bold;
-    font-size: 13px;
+.logo{
+    width: 80%;
+    height: 70%;
+    padding: auto;
 }
