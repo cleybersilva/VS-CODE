@@ -125,6 +125,29 @@
     height: 70%;
     padding: auto;
 }
-div .overflow {
-    display: flex;
+div .menu-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.menu-trigger {
+    display: inline-grid;
+    place-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0, 2);
+    cursor: pointer;
+}
+.dropdown-toggle img {
+    width: 35px;
+    margin: 0 12px;
+    border-radius: 50%;
+    position: relative;
+}
+#header-navbar .nav > li .caret {
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
+#header-navbar .nav a:hover .caret {
+	border-top-color: #fff;
+	border-bottom-color: #fff;
 }
