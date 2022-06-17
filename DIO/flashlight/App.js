@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet, image} from 'react-native';
+import {View, StyleSheet, Image} from 'react-native';
 import imagex from './assets/icons/eco-light-off.png';
 
 const App = () => {
