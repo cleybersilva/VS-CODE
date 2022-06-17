@@ -9,7 +9,7 @@ const App = () => {
   return (
      <View style={toggle ? style.containerLight : style.container}>
     <Image source={imagex} />
-    </view>
+    </View>
   );
 };
 
