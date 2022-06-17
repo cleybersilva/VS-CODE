@@ -22,7 +22,7 @@ const style = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
-    containerLights: {
+    containerLight: {
         flex: 1,
         backgroundColor: 'white',
         alignItems: 'center',
