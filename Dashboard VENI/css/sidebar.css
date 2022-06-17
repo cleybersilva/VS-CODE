@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #010736;
+    color: rgba(255, 153, 0);
+}
+.u-name {
+    font-size: 24px;
+    padding-left: 17px;
+}
+.u-name b {
+    color: rgb(255, 255, 255);
+}
+.header i {
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+.header i:hover {
+    color: rgb(199, 66, 14);
+}
+.user-p {
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+.user-p img {
+    width: 85px;
+    margin: 0 12px;
+    border-radius: 50%;
+}
+.user-p h5 {
+    color: #010736;
+    padding: 5px 0;
+    font-size: 17px;
+}
+.side-bar {
+    width: 250px;
+    background: #ffffff;
+    min-height: 100vh;
+    transition: 500ms width;
+}
+.body {
+    display: flex;
+}
+.main {
+    display: block;
+    width: 100%;
+    background: url(../img/unicorp.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main h2 {
+    color: #fff;
+    font-size: 40px;
+}
+.main p {
+    color: #010736;
+    font-size: 18px;
+    font-weight: bold;
+    background:#fff;
+    padding: 7px;
+    border-radius: 10px;
+}
+.side-bar ul {
+    margin-top: 20px;
+    list-style: none;
+}
+.side-bar ul li {
+    font-size: 16px;
+    padding: 15px 0px;
+    padding-left: 5px;
+    transition: 500ms background;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.side-bar ul li:hover {
+    background-color:rgba(255, 153, 0)
+}
+.side-bar ul li a {
+    text-decoration: none;
+    color: #010736;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.side-bar ul li a i {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 23px;
+}
+#navbtn {
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 20px;
+    transition: 500ms color;
+}
+#checkbox {
+    display: none;
+}
+#checkbox:checked ~ .body .side-bar {
+    width: 60px;
+}
+#checkbox:checked ~ .body .side-bar .user-p {
+    visibility: hidden;
+}
+#checkbox:checked ~ .body .side-bar a span {
+    display: none;
+}
+.logo{
+    width: 80%;
+    height: 70%;
+    padding: auto;
+}
+div .menu-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+.menu-trigger {
+    display: inline-grid;
+    place-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0, 2);
+    cursor: pointer;
+}
+.dropdown-toggle img {
+    width: 35px;
+    margin: 0 12px;
+    border-radius: 50%;
+    position: relative;
+}
+#header-navbar .nav > li .caret {
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
+#header-navbar .nav a:hover .caret {
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
