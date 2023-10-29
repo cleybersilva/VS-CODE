@@ -1,6 +1,6 @@
 import pyodbc
 
-dados_conexao (
+dados_conexao = (
     "Driver={SQL Server};"
     "Server=cleyber;"
     "Database=PythonSQL;"
