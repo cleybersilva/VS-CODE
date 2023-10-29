@@ -2,7 +2,7 @@ import pyodbc
 
 dados_conexao = (
     "Driver={SQL Server};"
-    "Server=DESKTOP-T2JV7P5;"
+    "Server=cleyber;"
     "Database=PythonSQL;"
 )
 
