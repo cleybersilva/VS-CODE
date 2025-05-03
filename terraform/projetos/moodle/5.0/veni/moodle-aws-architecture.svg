@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800">
+  <!-- Background -->
+  <rect width="1000" height="800" fill="#f5f5f5"/>
+  
+  <!-- AWS Cloud Border -->
+  <rect x="20" y="20" width="960" height="760" rx="15" ry="15" fill="#f2f6fa" stroke="#232F3E" stroke-width="2"/>
+  <text x="40" y="50" font-family="Arial" font-size="20" font-weight="bold" fill="#232F3E">AWS Cloud</text>
+
+  <!-- VPC -->
+  <rect x="60" y="80" width="880" height="680" rx="10" ry="10" fill="#DCE8F4" stroke="#1A476F" stroke-width="2"/>
+  <text x="80" y="110" font-family="Arial" font-size="18" font-weight="bold" fill="#1A476F">VPC</text>
+
+  <!-- Availability Zone 1 -->
+  <rect x="100" y="130" width="375" height="580" rx="10" ry="10" fill="#E9F1FB" stroke="#1A476F" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="120" y="155" font-family="Arial" font-size="14" font-weight="bold" fill="#1A476F">Availability Zone 1</text>
+
+  <!-- Availability Zone 2 -->
+  <rect x="525" y="130" width="375" height="580" rx="10" ry="10" fill="#E9F1FB" stroke="#1A476F" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="545" y="155" font-family="Arial" font-size="14" font-weight="bold" fill="#1A476F">Availability Zone 2</text>
+
+  <!-- Internet Gateway -->
+  <rect x="440" y="90" width="120" height="30" rx="5" ry="5" fill="#FFCA9F" stroke="#E05243" stroke-width="2"/>
+  <text x="450" y="110" font-family="Arial" font-size="12" fill="#E05243" font-weight="bold">Internet Gateway</text>
+
+  <!-- Public Subnet 1 -->
+  <rect x="120" y="170" width="335" height="100" rx="5" ry="5" fill="#B7D7F4" stroke="#1A476F" stroke-width="1"/>
+  <text x="135" y="190" font-family="Arial" font-size="12" font-weight="bold" fill="#1A476F">Public Subnet 1</text>
+
+  <!-- Public Subnet 2 -->
+  <rect x="545" y="170" width="335" height="100" rx="5" ry="5" fill="#B7D7F4" stroke="#1A476F" stroke-width="1"/>
+  <text x="560" y="190" font-family="Arial" font-size="12" font-weight="bold" fill="#1A476F">Public Subnet 2</text>
+
+  <!-- NAT Gateway 1 -->
+  <rect x="220" y="200" width="120" height="40" rx="5" ry="5" fill="#FFCA9F" stroke="#E05243" stroke-width="2"/>
+  <text x="235" y="225" font-family="Arial" font-size="12" fill="#E05243" font-weight="bold">NAT Gateway</text>
+
+  <!-- NAT Gateway 2 -->
+  <rect x="645" y="200" width="120" height="40" rx="5" ry="5" fill="#FFCA9F" stroke="#E05243" stroke-width="2"/>
+  <text x="660" y="225" font-family="Arial" font-size="12" fill="#E05243" font-weight="bold">NAT Gateway</text>
+
+  <!-- Private Subnet 1 (App) -->
+  <rect x="120" y="280" width="335" height="130" rx="5" ry="5" fill="#D9E9FD" stroke="#1A476F" stroke-width="1"/>
+  <text x="135" y="300" font-family="Arial" font-size="12" font-weight="bold" fill="#1A476F">Private Subnet 1 (App)</text>
+
+  <!-- Private Subnet 2 (App) -->
+  <rect x="545" y="280" width="335" height="130" rx="5" ry="5" fill="#D9E9FD" stroke="#1A476F" stroke-width="1"/>
+  <text x="560" y="300" font-family="Arial" font-size="12" font-weight="bold" fill="#1A476F">Private Subnet 2 (App)</text>
+
+  <!-- Auto Scaling Group -->
+  <rect x="155" y="320" width="680" height="70" rx="5" ry="5" fill="#E9F3E6" stroke="#3B7A57" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="410" y="340" font-family="Arial" font-size="14" font-weight="bold" fill="#3B7A57">Auto Scaling Group</text>
+
+  <!-- EC2 Instance 1 -->
+  <rect x="200" y="320" width="120" height="50" rx="5" ry="5" fill="#FFE4B5" stroke="#D86613" stroke-width="2"/>
+  <text x="215" y="350" font-family="Arial" font-size="12" fill="#D86613" font-weight="bold">EC2 - Moodle</text>
+
+  <!-- EC2 Instance 2 -->
+  <rect x="625" y="320" width="120" height="50" rx="5" ry="5" fill="#FFE4B5" stroke="#D86613" stroke-width="2"/>
+  <text x="640" y="350" font-family="Arial" font-size="12" fill="#D86613" font-weight="bold">EC2 - Moodle</text>
+
+  <!-- ElastiCache Subnet 1 -->
+  <rect x="120" y="420" width="335" height="100" rx="5" ry="5" fill="#D9E9FD" stroke="#1A476F" stroke-width="1"/>
+  <text x="135" y="440" font-family="Arial" font-size="12" font-weight="bold" fill="#1A476F">Private Subnet 1 (Cache)</text>
+
+  <!-- ElastiCache Subnet 2 -->
+  <rect x="545" y="420" width="335" height="100" rx="5" ry="5" fill="#D9E9FD" stroke="#1A476F" stroke-width="1"/>
+  <text x="560" y="440" font-family="Arial" font-size="12" font-weight="bold" fill="#1A476F">Private Subnet 2 (Cache)</text>
+
+  <!-- ElastiCache Redis -->
+  <rect x="200" y="450" width="120" height="50" rx="5" ry="5" fill="#C3E5F1" stroke="#2474BA" stroke-width="2"/>
+  <text x="203" y="480" font-family="Arial" font-size="12" fill="#2474BA" font-weight="bold">ElastiCache Redis</text>
+
+  <!-- ElastiCache Redis Replica -->
+  <rect x="625" y="450" width="120" height="50" rx="5" ry="5" fill="#C3E5F1" stroke="#2474BA" stroke-width="2"/>
+  <text x="628" y="480" font-family="Arial" font-size="12" fill="#2474BA" font-weight="bold">ElastiCache Redis</text>
+
+  <!-- Database Subnet 1 -->
+  <rect x="120" y="530" width="335" height="100" rx="5" ry="5" fill="#D9E9FD" stroke="#1A476F" stroke-width="1"/>
+  <text x="135" y="550" font-family="Arial" font-size="12" font-weight="bold" fill="#1A476F">Private Subnet 1 (DB)</text>
+
+  <!-- Database Subnet 2 -->
+  <rect x="545" y="530" width="335" height="100" rx="5" ry="5" fill="#D9E9FD" stroke="#1A476F" stroke-width="1"/>
+  <text x="560" y="550" font-family="Arial" font-size="12" font-weight="bold" fill="#1A476F">Private Subnet 2 (DB)</text>
+
+  <!-- RDS Database Primary -->
+  <rect x="200" y="560" width="120" height="50" rx="5" ry="5" fill="#CFD5EA" stroke="#4D27AA" stroke-width="2"/>
+  <text x="215" y="590" font-family="Arial" font-size="12" fill="#4D27AA" font-weight="bold">RDS MySQL</text>
+
+  <!-- RDS Database Standby -->
+  <rect x="625" y="560" width="120" height="50" rx="5" ry="5" fill="#CFD5EA" stroke="#4D27AA" stroke-width="2"/>
+  <text x="640" y="590" font-family="Arial" font-size="12" fill="#4D27AA" font-weight="bold">RDS MySQL</text>
+
+  <!-- EFS -->
+  <rect x="365" y="640" width="270" height="50" rx="5" ry="5" fill="#E1DBFF" stroke="#7B558F" stroke-width="2"/>
+  <text x="468" y="670" font-family="Arial" font-size="12" fill="#7B558F" font-weight="bold">EFS</text>
+  <line x1="365" y1="640" x2="310" y2="590" stroke="#7B558F" stroke-width="2"/>
+  <line x1="635" y1="640" x2="690" y2="590" stroke="#7B558F" stroke-width="2"/>
+
+  <!-- External Services -->
+  <rect x="250" y="30" width="120" height="40" rx="5" ry="5" fill="#F7DEC0" stroke="#E05243" stroke-width="2"/>
+  <text x="272" y="55" font-family="Arial" font-size="12" fill="#E05243" font-weight="bold">CloudFront</text>
+
+  <rect x="630" y="30" width="120" height="40" rx="5" ry="5" fill="#F7DEC0" stroke="#E05243" stroke-width="2"/>
+  <text x="657" y="55" font-family="Arial" font-size="12" fill="#E05243" font-weight="bold">S3</text>
+
+  <rect x="800" y="30" width="120" height="40" rx="5" ry="5" fill="#FCE5C7" stroke="#9D5025" stroke-width="2"/>
+  <text x="827" y="55" font-family="Arial" font-size="12" fill="#9D5025" font-weight="bold">WAF</text>
+
+  <!-- CloudWatch -->
+  <rect x="80" y="30" width="120" height="40" rx="5" ry="5" fill="#E1DBFF" stroke="#7B558F" stroke-width="2"/>
+  <text x="90" y="55" font-family="Arial" font-size="12" fill="#7B558F" font-weight="bold">CloudWatch</text>
+
+  <!-- Load Balancer -->
+  <rect x="420" y="200" width="160" height="40" rx="5" ry="5" fill="#FFE4B5" stroke="#D86613" stroke-width="2"/>
+  <text x="434" y="225" font-family="Arial" font-size="12" fill="#D86613" font-weight="bold">Application Load Balancer</text>
+
+  <!-- Connection Lines -->
+  <!-- Internet to CloudFront -->
+  <line x1="500" y1="120" x2="500" y2="150" stroke="#232F3E" stroke-width="2"/>
+  <line x1="500" y1="150" x2="500" y2="200" stroke="#232F3E" stroke-width="2"/>
+
+  <!-- CloudFront to ALB -->
+  <line x1="310" y1="70" x2="420" y2="220" stroke="#232F3E" stroke-width="1" stroke-dasharray="5,5"/>
+
+  <!-- ALB to EC2 -->
+  <line x1="420" y1="240" x2="260" y2="320" stroke="#232F3E" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="580" y1="240" x2="685" y2="320" stroke="#232F3E" stroke-width="1" stroke-dasharray="5,5"/>
+
+  <!-- EC2 to ElastiCache -->
+  <line x1="260" y1="370" x2="260" y2="450" stroke="#232F3E" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="685" y1="370" x2="685" y2="450" stroke="#232F3E" stroke-width="1" stroke-dasharray="5,5"/>
+
+  <!-- EC2 to RDS -->
+  <line x1="260" y1="370" x2="260" y2="560" stroke="#232F3E" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="685" y1="370" x2="685" y2="560" stroke="#232F3E" stroke-width="1" stroke-dasharray="5,5"/>
+
+  <!-- Legend -->
+  <rect x="750" y="700" width="180" height="130" rx="5" ry="5" fill="white" stroke="#232F3E" stroke-width="1"/>
+  <text x="760" y="720" font-family="Arial" font-size="14" font-weight="bold" fill="#232F3E">Legenda</text>
+  
+  <rect x="760" y="730" width="15" height="15" fill="#FFE4B5" stroke="#D86613" stroke-width="1"/>
+  <text x="780" y="742" font-family="Arial" font-size="10" fill="#232F3E">Computação</text>
+  
+  <rect x="760" y="750" width="15" height="15" fill="#CFD5EA" stroke="#4D27AA" stroke-width="1"/>
+  <text x="780" y="762" font-family="Arial" font-size="10" fill="#232F3E">Base de Dados</text>
+  
+  <rect x="760" y="770" width="15" height="15" fill="#C3E5F1" stroke="#2474BA" stroke-width="1"/>
+  <text x="780" y="782" font-family="Arial" font-size="10" fill="#232F3E">Cache</text>
+  
+  <rect x="760" y="790" width="15" height="15" fill="#E1DBFF" stroke="#7B558F" stroke-width="1"/>
+  <text x="780" y="802" font-family="Arial" font-size="10" fill="#232F3E">Armazenamento</text>
+  
+  <rect x="760" y="810" width="15" height="15" fill="#F7DEC0" stroke="#E05243" stroke-width="1"/>
+  <text x="780" y="822" font-family="Arial" font-size="10" fill="#232F3E">Rede/Segurança</text>
+
+  <!-- Title -->
+  <text x="500" y="770" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#232F3E">Arquitetura Moodle 5.0 na AWS com Terraform</text>
+</svg>
